@@ -1,0 +1,102 @@
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2rem;
+    font-size: .875rem;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    text-align: center;
+    background-color: var(--Pale-blue);
+    color: var(--Desaturated-blue);
+}
+
+.container {
+    width: 95%;
+    max-width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: var(--white);
+}
+
+.illustration-image {
+    width: 100%;
+}
+
+.content {
+    padding: 1rem 1.5rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.paragraph {
+    margin-bottom: 1rem;
+}
+
+.subscription {
+    background-color: var(--Very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: .625rem;
+    font-size: .8125rem;
+    margin-bottom: 1.2rem;
+}
+
+.music-icon {
+    max-width: 20%;
+    padding-right: .5rem;
+}
+
+
+.change-link {
+    align-self: center;
+    margin-left: 3rem;
+}
+
+.change-link a {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    font-size: .8125rem;
+}
+
+.proceed-button {
+    border: none;
+    background-color: var(--Bright-blue);
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.buttons a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cancel-button {
+    color: var(--Dark-blue);
+}
