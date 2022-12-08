@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 1.2rem;
-    font-size: .875rem;
+    font-size: 1rem;
     font-family: 'Red Hat Display', sans-serif;
     height: 100vh;
     text-align: center;
@@ -31,8 +31,8 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 350px;
+    width: 100%;
+    max-width: 375px;
     border-radius: 15px;
     overflow: hidden;
     background-color: var(--white);
@@ -44,7 +44,7 @@ body {
 }
 
 .content {
-    padding: 1.5rem;
+    padding: 2em;
 }
 
 h2 {
@@ -54,7 +54,7 @@ h2 {
 }
 
 .paragraph {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-weight: 500;
 }
 
@@ -63,10 +63,9 @@ h2 {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    padding: .625rem;
-    font-size: .8125rem;
+    padding: .625em;
     font-weight: 700;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2em;
 }
 
 .annual-plan {
@@ -92,7 +91,7 @@ h2 {
 .buttons {
     display: flex;
     flex-direction: column;
-    font-size: .8125rem;
+    /* font-size: .8125rem; */
     font-weight: 700;
 }
 
@@ -104,7 +103,7 @@ h2 {
     text-align: center;
     border-radius: 10px;
     margin-bottom: 1rem;
-    box-shadow: 0 20px 20px 0 hsla(245, 75%, 52%,0.2);
+    box-shadow: 0 20px 20px 0 rgba(142, 139, 173, 0.2);
 }
 
 .buttons a {
