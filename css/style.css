@@ -75,23 +75,23 @@ h2 {
 
 .music-icon {
     max-width: 20%;
-    padding-right: 1rem;
+    padding-right: 1em;
 }
 
 
 .change-link {
     align-self: center;
-    margin-left: 4rem;
+    margin-left: 4em;
 }
 
 .change-link a {
     cursor: pointer;
+    color: var(--Desaturated-blue);
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    /* font-size: .8125rem; */
     font-weight: 700;
 }
 
