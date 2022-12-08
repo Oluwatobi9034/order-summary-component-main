@@ -24,6 +24,10 @@ body {
     text-align: center;
     background-color: var(--Pale-blue);
     color: var(--Desaturated-blue);
+
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container {
@@ -110,4 +114,13 @@ h2 {
 
 .cancel-button {
     color: var(--Desaturated-blue);
+}
+
+@media only screen and (min-width: 765px) {
+    body {
+        
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
 }
