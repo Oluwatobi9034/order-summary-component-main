@@ -14,9 +14,6 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     line-height: 1.3rem;
     font-size: 15px;
     font-family: 'Red Hat Display', sans-serif;
@@ -27,12 +24,14 @@ body {
 
     background-image: url(../images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
+    background-position: left 0vw top 0vh;
     background-size: contain;
 }
 
 .container {
-    width: 100%;
-    max-width: 300px;
+    margin: 4em auto;
+    width: 90%;
+    max-width: 350px;
     border-radius: 15px;
     overflow: hidden;
     background-color: var(--white);
@@ -116,11 +115,10 @@ h2 {
     color: var(--Desaturated-blue);
 }
 
-@media only screen and (min-width: 765px) {
+@media only screen and (min-width: 730px) {
     body {
-        
-    background-image: url(../images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
